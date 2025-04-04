@@ -4,7 +4,7 @@ pipeline {
     stages {   
         stage('Master') { 
             steps { 
-               sh 'echo "This is master branch changes:wq"' 
+               sh 'echo "This is master branch changes"' 
             }
         }
      
@@ -20,4 +20,5 @@ pipeline {
             }
         }  
     }
+
 }
